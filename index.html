@@ -47,30 +47,30 @@
         <h1 class="hero-title">ЭФФЕКТИВНЫЕ РЕШЕНИЯ <br> ДЛЯ ВАШЕГО БИЗНЕСА</h1>
         <a href="" class="hero-button">Заказать услугу</a>
     </section>
-    <div class="backdrop is-hidden">
+    <div class="backdrop">
         <div class="modal">
 
             <form class="modal-form">
                 <p class="modal-title">Оставьте свои данные, мы вам перезвоним</p>
 
                 <div class="form-field">
-                    <label for="name">Имя</label>
                     <input type="text" name="name" id="name">
+                    <label class="form-label" for="name">Имя</label>
                 </div>
                 
                 <div class="form-field">
-                    <label for="tel">Телефон</label>
                     <input type="tel" name="tel" id="tel">
+                    <label class="form-label" for="tel">Телефон</label>
                 </div>
                 
                 <div class="form-field">
-                    <label for="email">Почта</label>
                     <input type="email" name="email" id="email">
+                    <label class="form-label" for="email">Почта</label>
                 </div>
 
                 <div class="form-field">
-                    <label for="comment">Комментарий</label>
                     <textarea name="comment" id="comment" cols="30" rows="10"></textarea>
+                    <label class="comment-label" for="comment">Комментарий</label>
                 </div>
 
                 <div class="form-options">
@@ -78,13 +78,11 @@
                     <label for="agreement">Соглашаюсь с рассылкой и принимаю <a href="">Условия договора</a></label>
                 </div>
 
-                <button type="submit">Отправить</button>
-
-                
+                <div class="modal-button">
+                    <button type="submit">Отправить</button>
+                </div>
             </form>
-            <!-- <svg class="modal-exit">
-                <use href="./img/svg/Vector1.svg"></use>
-            </svg> -->
+
         </div>
     </div>
 <!-- Advantages -->
@@ -413,7 +411,6 @@
                 </a> 
 
         </div>
-        <p class="footer-sign">2020 | Developed by GoIT Students </p>
     </footer>
 </body>
 </html>
